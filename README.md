@@ -13,3 +13,8 @@ URL tersebut berfungsi sebagai alamat dari message broker yang digunakan. Progra
 
 # Running RabbitMQ as message broker.
 ![Running RabbitMQ](./Running-RabbitMQ.png)
+
+# Sending and processing event.
+Berikut adalah screenshot terminal dimana subscriber telah berhasil menerima 5 event message broker dari publisher.
+![Sending and processing event.](./Sending_and_Processing_Event.png)
+Setelah menjalankan cargo run di subscriber dan publisher, maka data dari publisher akan dikirim ke message queue yang ada. Kemudian, subscriber akan menerima data dari message queue tersebut dan ditampilkan pada console/terminal.
